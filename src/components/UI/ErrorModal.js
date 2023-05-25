@@ -14,7 +14,7 @@ const ErrorModal = (props) => {
           <p className={styles.content}>{props.warning}</p>
         </div>
         <footer>
-          <Button>Okay</Button>
+          <Button onClick={props.onConfirm}>Okay</Button>
         </footer>
       </Card>
     </div>
